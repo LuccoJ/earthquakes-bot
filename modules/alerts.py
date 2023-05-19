@@ -53,15 +53,14 @@ import sys
 from modules import utils
 from modules import storage
 from modules import where
-from modules import engines
+# This is not included in the distribution, and not strictly necessary. Would need more cleanup.
+# from modules import engines
 from modules.when import When
 from modules.tables import keywords
 from modules.tables import earthquakes
 from modules.timing import Stopwatch, profile
 from modules import langcodes
 from modules.recipients import Recipient, File, IRC, Twitter, Mastodon, Reddit, XMPP, Matrix
-
-from modules import startup
 
 from utils import Worker, Rejecter, clip, exceeds
 
