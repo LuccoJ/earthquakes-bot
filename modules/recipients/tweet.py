@@ -26,13 +26,11 @@ import re
 import unicodedata
 import time
 import us.states
-import shelve
-from random import random
 from cachetools import TTLCache
 
 from modules import utils
 from modules import where
-from modules.timing import Stopwatch, profile
+from modules.timing import profile
 
 
 class Twitter(Recipient):
