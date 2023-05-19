@@ -25,7 +25,6 @@ from requests.utils import urlparse
 from cachetools import LFUCache
 from unicodedata import category
 import mistune
-import shelve
 
 from modules import utils
 from modules.timing import profile
