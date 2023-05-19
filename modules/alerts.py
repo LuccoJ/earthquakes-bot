@@ -59,7 +59,9 @@ from modules.when import When
 from modules.tables import keywords
 from modules.tables import earthquakes
 from modules.timing import Stopwatch, profile
-from modules import langcodes
+# This module has too many rotten internal dependencies to include. Will have to find a replacement.
+# The lack of it DOES break the whole thing, so it needs to be replaced with something working.
+# from modules import langcodes
 from modules.recipients import Recipient, File, IRC, Twitter, Mastodon, Reddit, XMPP, Matrix
 
 from utils import Worker, Rejecter, clip, exceeds
