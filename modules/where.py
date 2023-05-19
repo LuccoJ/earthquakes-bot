@@ -37,7 +37,9 @@ from cachetools import LFUCache
 from timezonefinder import TimezoneFinder
 
 from modules import utils
-from modules import engines
+# The following module isn't available as it's hard to isolate from the rest of unrelated bot code.
+# This module should still work without it by falling back with an "except" clause.
+# from modules import engines
 from modules.timing import Balancer, Stopwatch, profile
 from modules.tables import cities
 
