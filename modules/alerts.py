@@ -2109,8 +2109,6 @@ class Notice(Event):
          if self.intensity:             output.append("with maximum intensity {data.intensity}", short=u"– intensity: {data.intensity}", worse=True)
 
       if self.links:                 output.append("→ {links}", human=None, machine=None, links=" ".join(set(self.links[:int(count/1.6)])))
-      output.append(" - important:")
-      output.append("https://twitter.com/BrainstormBot/status/1643764418075938817")
       if not fast and self.webcams:  output.append("— Webcams: {webcams}", short=None, machine=None, human=None, webcams=" ".join(self.webcams[:count]))
 
       return unicode(output)
