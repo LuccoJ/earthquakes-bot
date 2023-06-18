@@ -18,11 +18,11 @@ I do not plan to work on this bot anymore due to its distinguishing features bei
 
 ![TLDR](https://imgs.xkcd.com/comics/seismic_waves.png)  ­—[xkcd](https://xkcd.com/723/), years before Brainstorm existed
 
-#Source code
+# Source code
 
 The source code of the earthquake warning/reporting part of my bot is found at https://github.com/LuccoJ/earthquakes-bot but it won't work without an IRC bot core, and it will probably need tweaking for missing libraries and generally for using long-deprecated stuff (Python 2.7 and Poetry for Python 2.7, and many Python 2.7 dependencies from PyPi). It will also need a configuration file with earthquake report sources (RSS, Atom, QuakeML, FDSN, CSV, etc, earthquake feeds).
 
-#Important note about Twitter
+# Important note about Twitter
 
 [Twitter announced closing down its API to all free users](https://twitter.com/TwitterDev/status/1621026986784337922) on February 9, 2023. Since March 15, the streaming API that I rely on has become unaccessible to free users.
 
@@ -32,13 +32,13 @@ You can follow Brainstorm [on Mastodon](https://botsin.space/@brainstorm/1097964
 
 I also would like to suggest leaving Twitter and Reddit and finding somewhere else to be. It is a place that has become hostile to its users and companies that invested time and money in it, thanks to someone who behaves like a rich child with a new toy to break.
 
-#Where to find Brainstorm
+# Where to find Brainstorm
 
 * [Matrix](https://matrix.org) in the rooms [#earthquakes:matrix.org](https://matrix.to/#/#earthquakes:matrix.org) and [#alerts:matrix.org](https://matrix.to/#/#warnings:matrix.org)
 * [Mastodon](https://joinmastodon.org/) as [@brainstorm@botsin.space](https://botsin.space/@brainstorm)
 * [Libera.chat](https://libera.chat) in [##earthquakes](https://web.libera.chat/##earthquakes)
 
-#How Brainstorm works
+# How Brainstorm works
 
 Brainstorm gets earthquake information from mainly two types of sources: posts on [Twitter](https://twitter.com/BrainstormBot), and official reports by various geophysical agencies. Some specific Twitter accounts are monitored by Brainstorm for messages in a standard format, and these are generally in turn provided by geophysical agencies, while other tweets are simply received from accounts of people tweeting about an earthquake they felt.
 
